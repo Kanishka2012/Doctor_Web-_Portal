@@ -6,26 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .line h5{
-         font-size:20px;
-         color:rgb(110,40,50);
-      }
-    /*  .line span{
-        margin-top: 35px;
-        margin-left: 8px; 
-        color:#c5ecfd;
-        font-size:18px;
-      }*/
-
-      .line h2{
-         font-size:23px;
-         color:#c5ecfd;
-      }
-
-    </style>
 </head>
-<body class="bg-image">
+<body class="bg-image-patient">
    <div>
       <div class="header">
          <h1>Alotted patients are</h1>
