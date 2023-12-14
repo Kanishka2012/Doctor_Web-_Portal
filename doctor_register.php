@@ -98,12 +98,6 @@ if(isset($_POST['name'])){
         echo"<script>alert('Please enter the password')</script>";  
         exit();  
     }  
-    // $check="select * from doctor where username='$username'";
-    // $run=mysqli_query($conn,$check);
-    // if(mysqli_num_rows($run)>0){
-    //     echo "<scipt>alert('Username $username already exists. Please try another one')</script>";
-    //     exit();
-    // }
     $hash_password=password_hash($password,PASSWORD_DEFAULT);
     $sql="insert into `doctor`.`doctor` (`name`,`email`,`primary_contact`,`sec_contact`,`address`,`aadhar`,`pan`,
     `join_date`,`speciality_id`,`visit_time_from`,`visit_time_to`,`username`,`password`,`status`) values ('$name','$email','$primary_contact',

@@ -72,7 +72,7 @@ if(isset($_POST['name'])){
     $run=mysqli_query($conn,$sql);
     header("location:adminloggedin.php");
     $conn->close();
-
+    
 }
 
 
